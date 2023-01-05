@@ -9,16 +9,21 @@
 </head>
 <body>
    
-   <div class="form-contai">
+   <div class="form-container">
 
       <form action=""method="post">
          <h3>Register Now</h3>
+         <label for="name"><b>Name</b></label>
          <input type="text" name="name" required placeholders = "Enter your Name">
+         <label for="email"><b>Email ID</b></label>
          <input type="email" name="email" required placeholders = "Enter your Email">
+         <label for="number"><b>Phone Number</b></label>
          <input type="number" name="number" required placeholders = "Enter your Phone Number">
+         <label for="password"><b>Password</b></label>
          <input type="password" name="password" required placeholders = "Enter your Password">
+         <label for="password"><b>Confirm Password</b></label>
          <input type="password" name="cpassword" required placeholders = "Confirm your Password">
-         <select name="user_type">
+         <select name="user_type" style="text-align: center;">
             <option value="user">User</option>
             <option value="admin">Admin</option>
          </select>
